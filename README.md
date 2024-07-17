@@ -11,6 +11,7 @@
     - [웹 서버 및 리버스 프록시](#웹-서버-및-리버스-프록시)
 - [기술 스택](#기술-스택)
 - [추가로 개발하고 싶은 부분](#추가로-개발하고-싶은-부분)
+- [브랜치 관리 전략](#브랜치-관리-전략)
 
 ## 소개
 AikusoniTradeSystem 프로젝트는 여러 웹 개발 기술을 연습하고 학습하기 위한 개인 프로젝트입니다. \
@@ -66,7 +67,7 @@ AikusoniTradeSystem은 게임 아이템 경매와 인벤토리 관리를 돕기 
 - 설명: 아이템 거래 내역을 사용해 통계 정보를 반환하는 API 서버입니다. 빠른 응답을 위해 캐시를 사용합니다.
 
 #### 인증 서버
-- 레포: session-auth-server
+- 레포: [session-auth-server](https://github.com/AikusoniTradeSystem/session-auth-server)
 - 서버: Spring Boot (Spring MVC)
 - 설명: 사용자 인증 처리 및 세션 정보를 관리합니다. HTTP 헤더에 사용자 세부 정보를 추가하여 다른 API 서비스에서 사용할 수 있도록 합니다. Redis를 세션 클러스터링에 사용할 예정입니다.
 
@@ -102,3 +103,6 @@ AikusoniTradeSystem은 게임 아이템 경매와 인벤토리 관리를 돕기 
 - 인증 서버 전환 해보기
 - 거래 기록 관리를 위한 ELK 적용
 - Spring Webflux 사용해보기
+
+## 브랜치 관리 전략
+- git flow와 유사한 형태로 진행
