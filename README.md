@@ -54,9 +54,21 @@ AikusoniTradeSystem은 게임 아이템 경매와 인벤토리 관리를 돕기 
 - 기술: Spring Boot (Spring MVC)
 - 설명: 인벤토리 정보와 소유권 정보를 관리합니다.
 
+#### 통계 API 서버
+- 기술: Spring Boot (Spring MVC)
+- 설명: 아이템 거래 내역을 사용해 통계 정보를 반환하는 API 서버입니다. 빠른 반환을 위해 캐시를 사용합니다.
+
 #### 인증 서버
 - 서버: Spring Boot (Spring MVC)
 - 설명: 사용자 인증 처리 및 세션 정보를 관리합니다. HTTP 헤더에 사용자 세부 정보를 추가하여 다른 API 서비스에서 사용할 수 있도록 합니다. Redis를 세션 클러스터링에 사용할 예정입니다.
+
+#### 테스트 서버 #1
+- 서버 : Spring Boot (Spring MVC)
+- 설명 : 인증 처리 완료된 API 호출에 인가 기능 테스트를 진행하기 위한 Spring Boot 서버입니다.
+
+#### 테스트 서버 #2
+- 서버 : Node.js + express
+- 설명 : 인증 처리 완료된 API 호출에 인가 기능 테스트를 진행하기 위한 node.js 서버입니다.
 
 ### 데이터베이스
 - 기술 : MySQL (핵심 데이터용), Redis(세션클러스터링), 또, 게임 아이템 세부 정보 관리를 위해 NoSQL (예: MongoDB)을 고려 중입니다.
@@ -75,4 +87,5 @@ AikusoniTradeSystem은 게임 아이템 경매와 인벤토리 관리를 돕기 
 ## 추가로 개발하고 싶은 부분
 - Docker Compose를 사용해 한번에 배포해보기
 - 인증 서버 전환 해보기
-- 로그 관리를 위한 ELK 적용
+- 거래 기록 관리를 위한 ELK 적용
+- Spring Webflux 사용해보기
