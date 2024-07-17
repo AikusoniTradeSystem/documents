@@ -47,7 +47,7 @@ AikusoniTradeSystem은 게임 아이템 경매와 인벤토리 관리를 돕기 
 - 설명: 거래 처리 완료 메시지를 받으면 프론트엔드에 푸시 알림을 보냅니다.
 
 #### 아이템 등록 API 서버
-- 기술: Spring Boot (Spring MVC)
+- 기술: Node.js + express
 - 설명: 아이템 정보 등록/관리 API가 있는 서버입니다.
 
 #### 인벤토리 API 서버
