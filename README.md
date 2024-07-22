@@ -23,7 +23,7 @@ AikusoniTradeSystem 프로젝트는 여러 웹 개발 기술을 연습하고 학
 ## 프로젝트 개요
 AikusoniTradeSystem은 게임내 아이템 경매장을 구현하기 위한 플랫폼입니다. \
 이 시스템은 여러 개의 작은 서비스로 구성되어 있으며, 각각의 서비스는 플랫폼의 특정 부분을 처리합니다. \
-관리를 용이하게 하기 위해 이런 구조를 선택했습니다.
+관리를 용이하게 하기 위해 이런 구조를 선택했습니다. \
 
 ## 시스템 아키텍처
 ### 프론트엔드
@@ -84,6 +84,9 @@ AikusoniTradeSystem은 게임내 아이템 경매장을 구현하기 위한 플�
 - 설명: 인증 처리 완료된 API 호출에 인가 기능 테스트를 진행하기 위한 node.js 서버입니다.
 
 ### 라이브러리
+```
+공통적으로 사용되는 모듈의 경우 GitHub Package Repository를 통해 배포해서 사용합니다.
+```
 #### AikusoniTradeSystem 스프링부트 앱용 Core 모듈
 - 레포: [ats-spring-core](https://github.com/AikusoniTradeSystem/ats-spring-core)
 - 설명: 스프링 부트 애플리케이션에서 공통으로 사용될 Core 모듈 
