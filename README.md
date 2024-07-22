@@ -116,6 +116,7 @@ AikusoniTradeSystem은 게임내 아이템 경매장을 구현하기 위한 플�
 - 인증: Spring Boot와 Redis를 사용한 세션 클러스터링
 - 메시지 큐 : RabbitMQ
 - 웹 서버 및 리버스 프록시: nginx
+- 패키지 배포 방식: GitHub Package Repository 사용
 
 ## 추가로 개발하고 싶은 부분
 - Docker Compose를 사용해 한번에 배포해보기
