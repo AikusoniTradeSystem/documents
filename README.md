@@ -8,6 +8,8 @@
     - [프론트엔드](#프론트엔드)
     - [백엔드](#백엔드)
     - [데이터베이스](#데이터베이스)
+    - [라이브러리](#라이브러리)
+    - [기타](#기타)
     - [웹 서버 및 리버스 프록시](#웹-서버-및-리버스-프록시)
 - [기술 스택](#기술-스택)
 - [추가로 개발하고 싶은 부분](#추가로-개발하고-싶은-부분)
@@ -80,6 +82,20 @@ AikusoniTradeSystem은 게임 아이템 경매와 인벤토리 관리를 돕기 
 - 레포: [test-server-node](https://github.com/AikusoniTradeSystem/test-server-node)
 - 서버: Node.js + express
 - 설명: 인증 처리 완료된 API 호출에 인가 기능 테스트를 진행하기 위한 node.js 서버입니다.
+
+### 라이브러리
+#### AikusoniTradeSystem 스프링부트 앱용 Core 모듈
+- 레포: [ats-spring-core](https://github.com/AikusoniTradeSystem/ats-spring-core)
+- 설명: 스프링 부트 애플리케이션에서 공통으로 사용될 Core 모듈 
+
+#### AikusoniTradeSystem 스프링부트 앱용 Web MVC 모듈
+- 레포: [ats-spring-mvc-standard](https://github.com/AikusoniTradeSystem/ats-spring-mvc-standard)
+- 설명: 스프링 부트 애플리케이션 중 WEB-MVC를 사용하는 서버 애플리케이션에서 사용될 WEB-MVC 표준 모듈
+
+### 기타
+#### packages
+- 레포: [packages](https://github.com/AikusoniTradeSystem/packages)
+- 설명: GitHub Package Repository를 통해 배포되는 패키지를 등록하기 위한 레포지토리
 
 ### 데이터베이스
 - DB: DB 정보는 각 도메인에 해당되는 프로젝트에서 관리
