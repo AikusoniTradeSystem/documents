@@ -23,7 +23,7 @@ AikusoniTradeSystem 프로젝트는 여러 웹 개발 기술을 연습하고 학
 ## 프로젝트 개요
 AikusoniTradeSystem은 게임내 아이템 경매장을 구현하기 위한 플랫폼입니다. \
 이 시스템은 여러 개의 작은 서비스로 구성되어 있으며, 각각의 서비스는 플랫폼의 특정 부분을 처리합니다. \
-관리를 용이하게 하기 위해 이런 구조를 선택했습니다. \
+관리를 용이하게 하기 위해 이런 구조를 선택했습니다. 
 
 ## 시스템 아키텍처
 ### 프론트엔드
@@ -116,7 +116,7 @@ AikusoniTradeSystem은 게임내 아이템 경매장을 구현하기 위한 플�
 - 인증: Spring Boot와 Redis를 사용한 세션 클러스터링
 - 메시지 큐 : RabbitMQ
 - 웹 서버 및 리버스 프록시: nginx
-- 패키지 배포 방식: GitHub Package Repository 사용
+- 라이브러리 패키지 배포 방식: GitHub Package Repository 사용
 
 ## 추가로 개발하고 싶은 부분
 - Docker Compose를 사용해 한번에 배포해보기
