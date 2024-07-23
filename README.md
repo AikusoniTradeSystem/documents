@@ -26,6 +26,8 @@ AikusoniTradeSystem은 게임내 아이템 경매장을 구현하기 위한 플�
 관리를 용이하게 하기 위해 이런 구조를 선택했습니다. 
 
 ## 시스템 아키텍처
+![system-architecture-draft](./imgs/system-architecture-draft.svg)
+
 ### 프론트엔드
 #### 아이템 등록 관리용 관리자 화면
 - 레포: [item-registration-web-ui](https://github.com/AikusoniTradeSystem/item-registration-web-ui)
