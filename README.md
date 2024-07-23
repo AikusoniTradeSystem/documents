@@ -25,7 +25,7 @@ AikusoniTradeSystem은 게임내 아이템 경매장을 구현하기 위한 플�
 이 시스템은 여러 개의 작은 서비스로 구성되어 있으며, 각각의 서비스는 플랫폼의 특정 부분을 처리합니다. \
 관리를 용이하게 하기 위해 이런 구조를 선택했습니다. 
 
-## 시스템 아키텍처
+## 시스템 아키텍처 (초안)
 ![system-architecture-draft](./imgs/system-architecture-draft.svg)
 
 ### 프론트엔드
