@@ -1,5 +1,7 @@
 # AikusoniTradeSystem 문서
 
+:construction:아직 작업 중인 프로젝트입니다.:construction:
+
 ## 목차
 
 - [소개](#소개)
@@ -30,48 +32,48 @@ AikusoniTradeSystem은 게임내 아이템 경매장을 구현하기 위한 플�
 ![system-architecture-draft](./imgs/system-architecture-draft.svg)
 
 ### 프론트엔드
-#### 아이템 등록 관리용 관리자 화면
+#### 아이템 등록 관리용 관리자 화면 (작업전)
 - 레포: [item-registration-web-ui](https://github.com/AikusoniTradeSystem/item-registration-web-ui)
 - 프레임워크: Angular 또는 React
 - 설명: 관리자가 아이템 정보를 등록/관리 할 때 사용하는 화면입니다.
 
-#### 경매장 화면
+#### 경매장 화면 (작업전)
 - 레포 : [auction-web-ui](https://github.com/AikusoniTradeSystem/auction-web-ui)
 - 프레임워크: Angular 또는 React
 - 설명 : 일반 유저가 사용하는 인벤토리 및 아이템 경매장 화면입니다.
 
 ### 백엔드
-#### 거래 API 서버
+#### 거래 API 서버 (작업전)
 - 레포: [trade-api](https://github.com/AikusoniTradeSystem/trade-api)
 - 기술: Spring Boot (Spring MVC)
 - 설명: 거래 요청을 수신하고, 메시지 큐에 거래 요청 메시지를 등록합니다.
 
-#### 거래 처리 데몬
+#### 거래 처리 데몬 (작업전)
 - 레포: [trade-processor](https://github.com/AikusoniTradeSystem/trade-processor)
 - 기술: Spring Boot
 - 설명: 메시지 큐에서 거래 요청 메시지를 받아 거래를 처리합니다.
 
-#### 푸시 알림 서버
+#### 푸시 알림 서버 (작업전)
 - 레포: [push-notification-server](https://github.com/AikusoniTradeSystem/push-notification-server)
 - 기술: Spring Boot (Firebase Cloud Messaging 혹은 WebSocket 혹은 SSE)
 - 설명: 거래 처리 완료 메시지를 받으면 프론트엔드에 푸시 알림을 보냅니다.
 
-#### 아이템 등록 API 서버
+#### 아이템 등록 API 서버 (작업전)
 - 레포: [item-registration-api](https://github.com/AikusoniTradeSystem/item-registration-api)
 - 기술: Node.js + express
 - 설명: 아이템 정보 등록/관리 API가 있는 서버입니다.
 
-#### 인벤토리 API 서버
+#### 인벤토리 API 서버 (작업전)
 - 레포: [inventory-api](https://github.com/AikusoniTradeSystem/inventory-api)
 - 기술: Spring Boot (Spring MVC)
 - 설명: 인벤토리 정보와 소유권 정보를 관리합니다.
 
-#### 아이템 거래 통계 API 서버
+#### 아이템 거래 통계 API 서버 (작업전)
 - 레포: [item-trade-statistics-api](https://github.com/AikusoniTradeSystem/item-trade-statistics-api)
 - 기술: Spring Boot (Spring MVC)
 - 설명: 아이템 거래 내역을 사용해 통계 정보를 반환하는 API 서버입니다. 빠른 응답을 위해 캐시를 사용합니다.
 
-#### 인증 서버
+#### 인증 서버 (작업중)
 - 레포: [session-auth-server](https://github.com/AikusoniTradeSystem/session-auth-server)
 - 서버: Spring Boot (Spring MVC)
 - 설명: 사용자 인증 처리 및 세션 정보를 관리합니다. HTTP 헤더에 사용자 세부 정보를 추가하여 다른 API 서비스에서 사용할 수 있도록 합니다. Redis를 세션 클러스터링에 사용할 예정입니다.
@@ -90,11 +92,11 @@ AikusoniTradeSystem은 게임내 아이템 경매장을 구현하기 위한 플�
 ```
 공통적으로 사용되는 모듈의 경우 GitHub Package Repository를 통해 배포해서 사용합니다.
 ```
-#### AikusoniTradeSystem 스프링부트 앱용 Core 모듈
+#### AikusoniTradeSystem 스프링부트 앱용 Core 모듈 (작업중)
 - 레포: [ats-spring-core](https://github.com/AikusoniTradeSystem/ats-spring-core)
 - 설명: 스프링 부트 애플리케이션에서 공통으로 사용될 Core 모듈 
 
-#### AikusoniTradeSystem 스프링부트 앱용 Web MVC 모듈
+#### AikusoniTradeSystem 스프링부트 앱용 Web MVC 모듈 (작업중)
 - 레포: [ats-spring-mvc-standard](https://github.com/AikusoniTradeSystem/ats-spring-mvc-standard)
 - 설명: 스프링 부트 애플리케이션 중 WEB-MVC를 사용하는 서버 애플리케이션에서 사용될 WEB-MVC 표준 모듈
 
