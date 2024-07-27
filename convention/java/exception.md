@@ -11,7 +11,7 @@ public class CustomAtsException extends RuntimeException implements BaseAtsExcep
 
     public AtsException(ErrorCode errorCode, String errorAlias, String message) {
         super(message);
-        this.errorCode = errorCode
+        this.errorCode = errorCode;
         this.errorAlias = errorAlias;
     }
 }
