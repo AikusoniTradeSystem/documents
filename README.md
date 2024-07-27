@@ -128,4 +128,4 @@ AikusoniTradeSystem은 게임내 아이템 경매장을 구현하기 위한 플�
 - Spring Webflux 사용해보기
 
 ## 브랜치 관리 전략
-- 기본적인 기능 개발이 완료되어 최초 배포버전이 만들어지면 git flow와 유사한 형태로 진행
+- 기본적인 기능 개발이 완료되어 최초 배포버전이 만들어지면 [git flow](https://techblog.woowahan.com/2553/) 또는 [github flow](https://docs.github.com/ko/get-started/using-github/github-flow)와 유사한 형태로 진행합니다.
