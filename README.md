@@ -32,17 +32,17 @@ AikusoniTradeSystem은 게임내 아이템 경매장을 구현하기 위한 플�
 ![system-architecture-draft](./imgs/system-architecture-draft.svg)
 
 ### 프론트엔드
-#### 메인 화면 및 로그인 화면 (작업전)
+#### 메인 페이지 및 회원가입 / 로그인 UI
 - 레포 :
 - 프레임워크 : Angular 또는 React
 - 설명 : 메인 화면입니다. 로그인 및 회원가입 기능을 제공합니다.
 
-#### 아이템 등록 관리용 관리자 화면 (작업전)
+#### 아이템 등록 관리용 관리자 UI (작업전)
 - 레포: [item-registration-web-ui](https://github.com/AikusoniTradeSystem/item-registration-web-ui)
 - 프레임워크: Angular 또는 React
 - 설명: 관리자가 아이템 정보를 등록/관리 할 때 사용하는 화면입니다.
 
-#### 경매장 화면 (작업전)
+#### 경매장 UI (작업전)
 - 레포 : [auction-web-ui](https://github.com/AikusoniTradeSystem/auction-web-ui)
 - 프레임워크: Angular 또는 React
 - 설명 : 일반 유저가 사용하는 인벤토리 및 아이템 경매장 화면입니다.
