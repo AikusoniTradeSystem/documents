@@ -1,4 +1,4 @@
-# Convention
+# AikusoniTradeSystem Development Convention
 
 ### JAVA
 - [Exception 클래스 생성 규칙](./java/exception.md)
