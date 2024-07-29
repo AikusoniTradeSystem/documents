@@ -43,6 +43,7 @@ AikusoniTradeSystem은 게임내 아이템 경매장을 구현하기 위한 플�
 ![system-architecture-draft](./imgs/system-architecture-draft.svg)
 
 ### 프론트엔드
+마이크로 프론트엔드 방식
 #### 포탈 페이지 및 회원가입 / 로그인UI
 - 레포 : [portal-web-ui](https://github.com/AikusoniTradeSystem/portal-web-ui)
 - 프레임워크 : Angular 또는 React
