@@ -140,11 +140,12 @@ AikusoniTradeSystem은 게임내 아이템 경매장을 구현하기 위한 플�
 - 웹 서버 및 리버스 프록시: nginx
 - 라이브러리 패키지 배포 방식: GitHub Package Repository 사용
 
-## 추가로 개발하고 싶은 부분
+## 추가로 개발하고 싶은 부분 혹은 고려사항
 - Docker Compose를 사용해 한번에 배포해보기
 - 인증 서버 전환 해보기
 - 거래 기록 관리를 위한 ELK 적용
 - Spring Webflux 사용해보기
+- Kafka를 사용한 이벤트 중개
 
 ## 브랜치 관리 전략
 - 기본적인 기능 개발이 완료되어 최초 배포버전이 만들어지면 [git flow](https://techblog.woowahan.com/2553/) 또는 [github flow](https://docs.github.com/ko/get-started/using-github/github-flow)와 유사한 형태로 진행합니다.
