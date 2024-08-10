@@ -146,6 +146,7 @@ AikusoniTradeSystem은 게임내 아이템 경매장을 구현하기 위한 플�
 - 거래 기록 관리를 위한 ELK 적용
 - Spring Webflux 사용해보기
 - Kafka를 사용한 이벤트 중개
+- Docker Registry를 사용한 도커 이미지 관리
 
 ## 브랜치 관리 전략
 - 기본적인 기능 개발이 완료되어 최초 배포버전이 만들어지면 [git flow](https://techblog.woowahan.com/2553/) 또는 [github flow](https://docs.github.com/ko/get-started/using-github/github-flow)와 유사한 형태로 진행합니다.
