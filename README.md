@@ -155,3 +155,14 @@ AikusoniTradeSystem은 게임내 아이템 경매장을 구현하기 위한 플�
 
 ## 배포 시스템 구성 (초안)
 ![deployment-draft](./imgs/deployment-draft.svg)
+
+### 설명
+- 라이브러리의 패키지의 경우엔 GitHub Actions를 통해 Github Package Repository에 등록
+- 서비스 앱인 경우엔 GitHub Actions를 사용해 도커 이미지로 빌드해서 도커 허브에 등록
+- 실행시 docker-compose를 사용해 한번에 실행
+
+### 배포 사용 기술
+- GitHub Action
+- GitHub Package Repository
+- Docker
+- Docker Hub
