@@ -1,4 +1,4 @@
-# AikusoniTradeSystem 문서
+# [AikusoniTradeSystem](https://github.com/AikusoniTradeSystem) 문서
 
 :construction:아직 작업 중인 프로젝트입니다.:construction:
 
