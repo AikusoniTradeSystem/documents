@@ -18,6 +18,8 @@
 - [추가로 개발하고 싶은 부분](#추가로-개발하고-싶은-부분)
 - [브랜치 관리 전략](#브랜치-관리-전략)
 - [컨벤션](./convention/convention.md)
+- [배포 시스템 구성](#배포-시스템-구성)
+- [도커 허브 링크](#도커-허브-링크)
 
 ## 소개
 AikusoniTradeSystem 프로젝트는 여러 웹 개발 기술을 연습하고 학습하기 위한 개인 프로젝트입니다. \
@@ -166,3 +168,6 @@ AikusoniTradeSystem은 게임내 아이템 경매장을 구현하기 위한 플�
 - GitHub Package Repository
 - Docker
 - Docker Hub
+
+## 도커 허브 링크
+- [session-auth-server](https://hub.docker.com/r/aikusoni/ats-session-auth-server)
