@@ -138,7 +138,7 @@ AikusoniTradeSystem은 게임내 아이템 경매장을 구현하기 위한 플�
 - 인증: Spring Boot와 Redis를 사용한 세션 클러스터링
 - 메시지 큐 : RabbitMQ
 - 웹 서버 및 리버스 프록시: nginx
-- 라이브러리 패키지 배포 방식: GitHub Package Repository 사용
+- 도커 이미지 배포 및 라이브러리 패키지 배포 방식: GitHub Action과 GitHub Package Repository 사용
 
 ## 추가로 개발하고 싶은 부분 혹은 고려사항
 - Docker Compose를 사용해 한번에 배포해보기
@@ -147,7 +147,8 @@ AikusoniTradeSystem은 게임내 아이템 경매장을 구현하기 위한 플�
 - Spring Webflux 사용해보기
 - Kafka를 사용한 이벤트 중개
 - ~~Docker Registry를 사용한 도커 이미지 관리~~
-- Docker Hub에 각 서비스의 도커 이미지 등록
+- GitHub Action을 사용해 GitHub Package Repository에 라이브러리 배포
+- GitHub Action을 사용해 Docker Hub에 각 서비스의 도커 이미지 등록
 
 ## 브랜치 관리 전략
 - 기본적인 기능 개발이 완료되어 최초 배포버전이 만들어지면 [git flow](https://techblog.woowahan.com/2553/) 또는 [github flow](https://docs.github.com/ko/get-started/using-github/github-flow)와 유사한 형태로 진행합니다.
