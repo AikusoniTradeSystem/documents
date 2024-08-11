@@ -2,6 +2,8 @@
 
 :construction:아직 작업 중인 프로젝트입니다.:construction:
 
+**[작업현황보드](https://github.com/orgs/AikusoniTradeSystem/projects/1)**
+
 ## 목차
 
 - [소개](#소개)
