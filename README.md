@@ -31,6 +31,10 @@ AikusoniTradeSystem은 게임내 아이템 경매장을 구현하기 위한 플�
 이 시스템은 여러 개의 작은 서비스로 구성되어 있으며, 각각의 서비스는 플랫폼의 특정 부분을 처리합니다. \
 관리를 용이하게 하기 위해 이런 구조를 선택했습니다. 
 
+## 간단 실행법
+이 프로젝트는 docker-compose 를 사용해 한번에 실행 할 수 있도록 구성하고 있습니다. \
+[ats-quick-launcher](https://github.com/AikusoniTradeSystem/ats-quick-launcher)를 참조해주세요.
+
 ## 기능 개요
 각 기능에 대한 상세 시나리오는 [상세 시나리오](./details/scenario.md)문서에 작성되어 있습니다.
 - 회원 가입 및 로그인
