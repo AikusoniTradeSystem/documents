@@ -1,8 +1,6 @@
-# [AikusoniTradeSystem](https://github.com/AikusoniTradeSystem) 문서
+# AikusoniTradeSystem 문서
 
 :construction:아직 작업 중인 프로젝트입니다.:construction:
-
-**[작업현황보드](https://github.com/orgs/AikusoniTradeSystem/projects/1)**
 
 ## 목차
 
@@ -122,6 +120,10 @@ AikusoniTradeSystem은 게임내 아이템 경매장을 구현하기 위한 플�
 - 설명: 스프링 부트 애플리케이션 중 WEB-MVC를 사용하는 서버 애플리케이션에서 사용될 WEB-MVC 표준 모듈
 
 ### 기타
+#### packages 
+- 레포: [packages](https://github.com/AikusoniTradeSystem/packages)
+- 설명: GitHub Package Repository를 통해 배포되는 패키지를 등록하기 위한 레포지토리
+
 ### 데이터베이스
 - DB: DB 정보는 각 도메인에 해당되는 프로젝트에서 관리
 - 기술: MySQL (핵심 데이터용), Redis(세션클러스터링), 또, 게임 아이템 세부 정보 관리를 위해 NoSQL (예: MongoDB)을 고려 중입니다.
@@ -157,7 +159,7 @@ AikusoniTradeSystem은 게임내 아이템 경매장을 구현하기 위한 플�
 ![deployment-draft](./imgs/deployment-draft.svg)
 
 ### 설명
-- 라이브러리 패키지의 경우엔 GitHub Actions를 통해 Github Package Repository에 등록
+- 라이브러리의 패키지의 경우엔 GitHub Actions를 통해 Github Package Repository에 등록
 - 서비스 앱인 경우엔 GitHub Actions를 사용해 도커 이미지로 빌드해서 도커 허브에 등록
 - 실행시 docker-compose를 사용해 한번에 실행
 
