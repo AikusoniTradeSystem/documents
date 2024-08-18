@@ -1,6 +1,8 @@
-# AikusoniTradeSystem 문서
+# [AikusoniTradeSystem](https://github.com/AikusoniTradeSystem) 문서
 
 :construction:아직 작업 중인 프로젝트입니다.:construction:
+
+**[작업현황보드](https://github.com/orgs/AikusoniTradeSystem/projects/1)**
 
 ## 목차
 
@@ -155,7 +157,7 @@ AikusoniTradeSystem은 게임내 아이템 경매장을 구현하기 위한 플�
 ![deployment-draft](./imgs/deployment-draft.svg)
 
 ### 설명
-- 라이브러리의 패키지의 경우엔 GitHub Actions를 통해 Github Package Repository에 등록
+- 라이브러리 패키지의 경우엔 GitHub Actions를 통해 Github Package Repository에 등록
 - 서비스 앱인 경우엔 GitHub Actions를 사용해 도커 이미지로 빌드해서 도커 허브에 등록
 - 실행시 docker-compose를 사용해 한번에 실행
 
