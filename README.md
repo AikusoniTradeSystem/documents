@@ -46,7 +46,7 @@ AikusoniTradeSystem은 게임내 아이템 경매장을 구현하기 위한 플�
 - 아이템 거래 통계
 
 ## 시스템 아키텍처 (초안)
-![system-architecture-draft](./imgs/system-architecture-draft.svg)
+![system-architecture-v1](./imgs/system-architecture-v1.svg)
 
 ### 프론트엔드
 마이크로 프론트엔드 방식
