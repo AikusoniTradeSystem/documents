@@ -54,7 +54,7 @@ AikusoniTradeSystem은 게임내 아이템 경매장을 구현하기 위한 플�
     <a href="./imgs/system-architecture.svg" target="_blank">
         <img src="./imgs/system-architecture.svg" alt="system-architecture" width="100%">
     </a>
-    <figcaption>System Architecture</figcaption>
+    <figcaption><a href="./imgs/system-architecture.svg">System Architecture</a></figcaption>
 </figure>
 
 
@@ -70,7 +70,7 @@ AikusoniTradeSystem은 게임내 아이템 경매장을 구현하기 위한 플�
     <a href="./imgs/deployment-chain.svg" target="_blank">
         <img src="./imgs/deployment-chain.svg" alt="deployment-chain" width="100%">
     </a>
-    <figcaption>Deployment Chain</figcaption>
+    <figcaption><a href="./imgs/deployment-chain.svg">Deployment Chain</a></figcaption>
 </figure>
 
 ### 설명
