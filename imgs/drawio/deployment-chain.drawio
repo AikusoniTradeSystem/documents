@@ -1,0 +1,123 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.8 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.8">
+  <diagram name="페이지-1" id="DurMKu1d3ER9RWseOtjP">
+    <mxGraphModel dx="2484" dy="1596" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Lg3s8UcddFGMWewCXkvp-42" value="Deployment Chain" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=32;" vertex="1" parent="1">
+          <mxGeometry x="10" y="70" width="800" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="Lg3s8UcddFGMWewCXkvp-26" value="Ochestration System" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="160" y="490" width="600" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="Lg3s8UcddFGMWewCXkvp-38" value="Docker Cluster" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="580" y="510" width="160" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Lg3s8UcddFGMWewCXkvp-4" value="GitHub" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="390" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="Lg3s8UcddFGMWewCXkvp-5" value="Library Repos" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="160" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lg3s8UcddFGMWewCXkvp-6" value="Service Repos" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="240" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lg3s8UcddFGMWewCXkvp-11" value="Github Package Repository" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lg3s8UcddFGMWewCXkvp-12" value="Docker Hub (Or Docker Private Registry)" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="470" y="120" width="290" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="Lg3s8UcddFGMWewCXkvp-13" value="GitHub Action" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=10;notch=10;" vertex="1" parent="1">
+          <mxGeometry x="200" y="160" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lg3s8UcddFGMWewCXkvp-14" value="Release" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=10;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="160" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lg3s8UcddFGMWewCXkvp-15" value="Release" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=10;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="240" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lg3s8UcddFGMWewCXkvp-16" value="GitHub Action" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=10;notch=10;" vertex="1" parent="1">
+          <mxGeometry x="210" y="320.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lg3s8UcddFGMWewCXkvp-18" value="Docker Image" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Docker.svg;" vertex="1" parent="1">
+          <mxGeometry x="590" y="179" width="50" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="Lg3s8UcddFGMWewCXkvp-19" value="Docker Image" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Docker.svg;" vertex="1" parent="1">
+          <mxGeometry x="500" y="208.5" width="50" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="Lg3s8UcddFGMWewCXkvp-20" value="Docker Iamge" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Docker.svg;" vertex="1" parent="1">
+          <mxGeometry x="520" y="330" width="50" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="Lg3s8UcddFGMWewCXkvp-21" value="Docker Image" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Docker.svg;" vertex="1" parent="1">
+          <mxGeometry x="580" y="249.5" width="50" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="Lg3s8UcddFGMWewCXkvp-22" value="Docker Image" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Docker.svg;" vertex="1" parent="1">
+          <mxGeometry x="670" y="208.5" width="50" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="Lg3s8UcddFGMWewCXkvp-23" value="Script Repos" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="320.5" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lg3s8UcddFGMWewCXkvp-24" value="Keystore" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="30" y="578" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Lg3s8UcddFGMWewCXkvp-25" value="" style="points=[[0,0.5,0],[0.24,0,0],[0.5,0.28,0],[0.995,0.475,0],[0.5,0.72,0],[0.24,1,0]];verticalLabelPosition=bottom;sketch=0;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.key;fillColor=#005073;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60.835" y="609.875" width="58.33" height="26.25" as="geometry" />
+        </mxCell>
+        <mxCell id="Lg3s8UcddFGMWewCXkvp-27" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Docker.svg;" vertex="1" parent="1">
+          <mxGeometry x="620.36" y="548" width="89.27" height="73.2" as="geometry" />
+        </mxCell>
+        <mxCell id="Lg3s8UcddFGMWewCXkvp-29" value="Run Newly Released Script" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="300" y="515" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Lg3s8UcddFGMWewCXkvp-30" value="Release" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=10;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="320.5" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lg3s8UcddFGMWewCXkvp-31" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Lg3s8UcddFGMWewCXkvp-16" target="Lg3s8UcddFGMWewCXkvp-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="600" as="sourcePoint" />
+            <mxPoint x="490" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lg3s8UcddFGMWewCXkvp-33" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Lg3s8UcddFGMWewCXkvp-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="675" as="sourcePoint" />
+            <mxPoint x="350" y="749" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lg3s8UcddFGMWewCXkvp-35" value="Retrieve Keys &amp;amp; Env Variables" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="Lg3s8UcddFGMWewCXkvp-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="670" as="sourcePoint" />
+            <mxPoint x="350" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lg3s8UcddFGMWewCXkvp-37" value="Request to Pull New Docker Image" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.01;entryY=0.652;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="Lg3s8UcddFGMWewCXkvp-38">
+          <mxGeometry x="-0.0059" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="670" as="sourcePoint" />
+            <mxPoint x="490" y="673" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lg3s8UcddFGMWewCXkvp-39" value="Request Rolling Update" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.01;entryY=0.818;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="Lg3s8UcddFGMWewCXkvp-38">
+          <mxGeometry x="-0.0059" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="710" as="sourcePoint" />
+            <mxPoint x="590" y="650" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lg3s8UcddFGMWewCXkvp-41" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Lg3s8UcddFGMWewCXkvp-38" target="Lg3s8UcddFGMWewCXkvp-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="470" as="sourcePoint" />
+            <mxPoint x="350" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lg3s8UcddFGMWewCXkvp-43" value="Docker Iamge" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Docker.svg;" vertex="1" parent="1">
+          <mxGeometry x="670" y="310" width="50" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="Lg3s8UcddFGMWewCXkvp-44" value="Docker Iamge" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Docker.svg;" vertex="1" parent="1">
+          <mxGeometry x="600" y="330" width="50" height="41" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
