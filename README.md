@@ -8,6 +8,8 @@
 - [프로젝트 개요](#프로젝트-개요)
 - [기능 개요](#기능-개요)
 - [시스템 아키텍처](#시스템-아키텍처)
+- [배포 체인 구성](#배포-체인-구성)
+- [시스템 구성요소 목록](#시스템-구성요소-목록)
     - [프론트엔드](#프론트엔드)
     - [백엔드](#백엔드)
     - [데이터베이스](#데이터베이스)
@@ -18,7 +20,7 @@
 - [추가로 개발하고 싶은 부분](#추가로-개발하고-싶은-부분)
 - [브랜치 관리 전략](#브랜치-관리-전략)
 - [컨벤션](./convention/convention.md)
-- [배포 시스템 구성](#배포-시스템-구성)
+- [배포 사용 기술](#배포-사용-기술)
 - [도커 허브 링크](#도커-허브-링크)
 
 ## 소개
@@ -45,8 +47,27 @@ AikusoniTradeSystem은 게임내 아이템 경매장을 구현하기 위한 플�
 - 경매장을 통한 아이템 거래
 - 아이템 거래 통계
 
-## 시스템 아키텍처 (초안)
-![system-architecture-v1](./imgs/system-architecture-v1.svg)
+## 시스템 아키텍처
+
+### 도안
+![system-architecture](./imgs/system-architecture.svg)
+
+### 설명
+- 프론트엔드는 마이크로 프론트엔드 방식으로 구성, 필요한 경우 랜딩 페이지를 위한 SSR 웹서버 별도 구성
+- 백엔드는 요청을 받기위한 API 서버들과, 응답을 위한 응답 서버, 거래처리 등을 수행하기 위한 데몬, 이벤트 브로커로 구성
+- 인증 서버를 따로 분리하고 Nginx의 Auth Request 플러그인으로 인증 처리를 담당
+
+## 배포 체인 구성
+
+### 도안
+![deployment-chai ](./imgs/deployment-chain.svg)
+
+### 설명
+- 라이브러리 레포가 릴리즈되면 GitHub Actions를 통해 Github Package Repository에 등록
+- 서비스 레포(프론트엔드 포함)가 릴리즈되면 GitHub Actions를 사용해 도커 이미지로 빌드해서 도커 허브(혹은 Docker Private Repository)에 등록
+- 스크립트 레포가 릴리즈되면 GitHub Actions를 통해 오케스트레이션 툴을 통해 도커 허브에 등록된 이미지로 클러스터의 인스턴스들을 업데이트
+
+## 시스템 구성요소 목록
 
 ### 프론트엔드
 마이크로 프론트엔드 방식
@@ -159,19 +180,12 @@ AikusoniTradeSystem은 게임내 아이템 경매장을 구현하기 위한 플�
 ## 브랜치 관리 전략
 - 기본적인 기능 개발이 완료되어 최초 배포버전이 만들어지면 [git flow](https://techblog.woowahan.com/2553/) 또는 [github flow](https://docs.github.com/ko/get-started/using-github/github-flow)와 유사한 형태로 진행합니다.
 
-## 배포 시스템 구성 (초안)
-![deployment-draft](./imgs/deployment-draft.svg)
-
-### 설명
-- 라이브러리의 패키지의 경우엔 GitHub Actions를 통해 Github Package Repository에 등록
-- 서비스 앱인 경우엔 GitHub Actions를 사용해 도커 이미지로 빌드해서 도커 허브에 등록
-- 실행시 docker-compose를 사용해 한번에 실행
-
-### 배포 사용 기술
+## 배포 사용 기술
 - GitHub Action
 - GitHub Package Repository
 - Docker
 - Docker Hub
 
 ## 도커 허브 링크
-- [session-auth-server](https://hub.docker.com/r/aikusoni/ats-session-auth-server)
+- [ats-session-auth-server](https://hub.docker.com/r/aikusoni/ats-session-auth-server)
+- [ats-test-server-spring](https://hub.docker.com/r/aikusoni/ats-test-server-spring)
