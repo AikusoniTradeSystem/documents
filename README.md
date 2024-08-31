@@ -50,7 +50,13 @@ AikusoniTradeSystem은 게임내 아이템 경매장을 구현하기 위한 플�
 ## 시스템 아키텍처
 
 ### 도안
-![system-architecture](./imgs/system-architecture.svg)
+<figure>
+    <a href="./imgs/system-architecture.svg" target="_blank">
+        <img src="./imgs/system-architecture.svg" alt="system-architecture" width="100%">
+    </a>
+    <figcaption>System Architecture</figcaption>
+</figure>
+
 
 ### 설명
 - 프론트엔드는 마이크로 프론트엔드 방식으로 구성, 필요한 경우 랜딩 페이지를 위한 SSR 웹서버 별도 구성
@@ -60,7 +66,12 @@ AikusoniTradeSystem은 게임내 아이템 경매장을 구현하기 위한 플�
 ## 배포 체인 구성
 
 ### 도안
-![deployment-chai ](./imgs/deployment-chain.svg)
+<figure>
+    <a href="./imgs/deployment-chain.svg" target="_blank">
+        <img src="./imgs/deployment-chain.svg" alt="deployment-chain" width="100%">
+    </a>
+    <figcaption>Deployment Chain</figcaption>
+</figure>
 
 ### 설명
 - 라이브러리 레포가 릴리즈되면 GitHub Actions를 통해 Github Package Repository에 등록
