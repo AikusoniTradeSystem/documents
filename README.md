@@ -65,7 +65,7 @@ AikusoniTradeSystem은 게임내 아이템 경매장을 구현하기 위한 플�
 ### 설명
 - 라이브러리 레포가 릴리즈되면 GitHub Actions를 통해 Github Package Repository에 등록
 - 서비스 레포(프론트엔드 포함)가 릴리즈되면 GitHub Actions를 사용해 도커 이미지로 빌드해서 도커 허브(혹은 Docker Private Repository)에 등록
-- 스크립트 레포가 릴리즈되면 GitHub Actions를 통해 오케스트레이션 툴을 통해 도커 허브에 등록된 이미지로 클러스터의 인스턴스들을 업데이트
+- 스크립트 레포가 릴리즈되면 GitHub Actions를 통해 오케스트레이션 툴이 클러스터의 인스턴스들을 도커 허브에 등록된 이미지로 업데이트
 
 ## 시스템 구성요소 목록
 
