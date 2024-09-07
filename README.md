@@ -50,7 +50,7 @@ AikusoniTradeSystem은 게임내 아이템 경매장을 구현하기 위한 플�
 ## 시스템 아키텍처
 
 ### 도안
-![system-architecture](./imgs/system-architecture.svg)
+[![](./imgs/system-architecture.svg)](./imgs/system-architecture.svg)
 
 ### 설명
 - 프론트엔드는 마이크로 프론트엔드 방식으로 구성, 필요한 경우 랜딩 페이지를 위한 SSR 웹서버 별도 구성
@@ -60,12 +60,12 @@ AikusoniTradeSystem은 게임내 아이템 경매장을 구현하기 위한 플�
 ## 배포 체인 구성
 
 ### 도안
-![deployment-chain](./imgs/deployment-chain.svg)
+[![](./imgs/deployment-chain.svg)](./imgs/deployment-chain.svg)
 
 ### 설명
 - 라이브러리 레포가 릴리즈되면 GitHub Actions를 통해 Github Package Repository에 등록
 - 서비스 레포(프론트엔드 포함)가 릴리즈되면 GitHub Actions를 사용해 도커 이미지로 빌드해서 도커 허브(혹은 Docker Private Repository)에 등록
-- 스크립트 레포가 릴리즈되면 GitHub Actions를 통해 오케스트레이션 툴을 통해 도커 허브에 등록된 이미지로 클러스터의 인스턴스들을 업데이트
+- 스크립트 레포가 릴리즈되면 GitHub Actions를 통해 오케스트레이션 툴이 클러스터의 인스턴스들을 도커 허브에 등록된 이미지로 업데이트
 
 ## 브랜치 전략
 ### 도안
