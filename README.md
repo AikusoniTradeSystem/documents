@@ -32,7 +32,7 @@ AikusoniTradeSystem은 게임내 아이템 경매장을 구현하기 위한 플�
 관리를 용이하게 하기 위해 이런 구조를 선택했습니다. 
 
 ## 간단 실행법
-이 프로젝트는 docker-compose 를 사용해 한번에 실행 할 수 있도록 구성하고 있습니다. \
+이 프로젝트는 docker-compose 를 사용해 한번에 실행 할 수 있는 샘플 레포지토리를 제공하고 있습니다. \
 [ats-quick-launcher](https://github.com/AikusoniTradeSystem/ats-quick-launcher)를 참조해주세요.
 
 ## 기능 개요 (예상)
@@ -64,8 +64,11 @@ AikusoniTradeSystem은 게임내 아이템 경매장을 구현하기 위한 플�
 - 라이브러리 레포가 릴리즈되면 GitHub Actions를 통해 Github Package Repository에 등록
 - 서비스 레포(프론트엔드 포함)가 릴리즈되면 GitHub Actions를 사용해 도커 이미지로 빌드해서 도커 허브(혹은 Docker Private Repository)에 등록
 - 스크립트 레포가 릴리즈되면 GitHub Actions를 통해 오케스트레이션 툴이 클러스터의 인스턴스들을 도커 허브에 등록된 이미지로 업데이트
+- develop 브랜치에 배포된 앱은 develop 태그를 붙여 배포되고, release된 앱은 latest 태그를 붙여 배포됩니다.
+- 빌드 스크립트의 캐시 이슈가 있을 수 있기 때문에 패키지의 경우에는 따로 develop 버전이 없습니다.
 
 ## 브랜치 전략
+
 ### 도안
 :construction:
 - 기본적인 기능 개발이 완료되면 [git flow](https://techblog.woowahan.com/2553/) 또는 [github flow](https://docs.github.com/ko/get-started/using-github/github-flow)와 유사한 형태로 진행합니다.
@@ -81,17 +84,20 @@ AikusoniTradeSystem은 게임내 아이템 경매장을 구현하기 위한 플�
 ### 도커 컴포즈를 사용한 퀵 런처
 - 레포: [ats-quick-launcher](https://github.com/AikusoniTradeSystem/ats-quick-launcher)
 - 기술: docker-compose, nginx
-- 설명: 도커 컴포즈를 사용해 프로젝트의 모든 서비스를 한번에 실행할 수 있도록 구성되어 있습니다. 이 레포지토리를 참조하면 도커 컴포즈를 사용해서 스텁을 올리고 싶은 도커 클러스터에 서비스를 등록 할 수 있씁니다.
+- 설명: 도커 컴포즈를 사용해 프로젝트의 모든 서비스를 한번에 실행할 수 있도록 구성되어 있습니다. 이 레포지토리를 참조하면 도커 컴포즈를 사용해서 스텁을 올리고 싶은 도커 클러스터에 서비스를 등록 할 수 있습니다.
 
 ## 시스템 주요 구성요소 목록
+
 ### 프론트엔드
 마이크로 프론트엔드 방식
+
 #### 랜딩 페이지 (작업중)
 - 레포: [ats-landing](https://github.com/AikusoniTradeSystem/ats-landing)
 - 기술: React
 - 설명: 프로젝트의 랜딩 페이지, 회원가입/로그인 등의 페이지 제공을 담당한다.
 
 ### 백엔드
+
 #### 세션 인증 서버
 - 레포: [session-auth-server](https://github.com/AikusoniTradeSystem/session-auth-server)
 - 서버: Spring Boot (Spring MVC)
@@ -107,6 +113,7 @@ AikusoniTradeSystem은 게임내 아이템 경매장을 구현하기 위한 플�
 공통적으로 사용되는 모듈의 경우 GitHub Package Repository를 통해 배포해서 사용합니다.
 (추후 maven central repository에 배포할지도 고려해볼 예정)
 ```
+
 #### AikusoniTradeSystem 스프링부트 앱용 Core 모듈 (작업중)
 - 레포: [ats-spring-core](https://github.com/AikusoniTradeSystem/ats-spring-core)
 - 설명: 스프링 부트 애플리케이션에서 공통으로 사용될 Core 모듈 
@@ -116,6 +123,7 @@ AikusoniTradeSystem은 게임내 아이템 경매장을 구현하기 위한 플�
 - 설명: 스프링 부트 애플리케이션 중 WEB-MVC를 사용하는 서버 애플리케이션에서 사용될 WEB-MVC 표준 모듈
 
 ### 기타
+
 #### packages 
 - 레포: [packages](https://github.com/AikusoniTradeSystem/packages)
 - 설명: GitHub Package Repository를 통해 배포되는 패키지를 등록하기 위한 레포지토리
