@@ -9,18 +9,16 @@
 - [기능 개요](#기능-개요)
 - [시스템 아키텍처](#시스템-아키텍처)
 - [배포 체인 구성](#배포-체인-구성)
+- [브랜치 전략](#브랜치-전략)
+- [스텁 실행하는 법 (혹은 로컬 개발환경 구성)](#스텁-실행하는-법-혹은-로컬-개발환경-구성)
+    - [도커 컴포즈를 사용한 퀵 런처](#도커-컴포즈를-사용한-퀵-런처)
 - [시스템 구성요소 목록](#시스템-구성요소-목록)
     - [프론트엔드](#프론트엔드)
     - [백엔드](#백엔드)
     - [데이터베이스](#데이터베이스)
     - [라이브러리](#라이브러리)
     - [기타](#기타)
-    - [웹 서버 및 리버스 프록시](#웹-서버-및-리버스-프록시)
-- [기술 스택](#기술-스택)
-- [추가로 개발하고 싶은 부분](#추가로-개발하고-싶은-부분)
-- [브랜치 관리 전략](#브랜치-관리-전략)
 - [컨벤션](./convention/convention.md)
-- [배포 사용 기술](#배포-사용-기술)
 - [도커 허브 링크](#도커-허브-링크)
 
 ## 소개
@@ -69,12 +67,17 @@ AikusoniTradeSystem은 게임내 아이템 경매장을 구현하기 위한 플�
 
 ## 브랜치 전략
 ### 도안
-:construction:기본적인 기능 개발이 완료되면 [git flow](https://techblog.woowahan.com/2553/) 또는 [github flow](https://docs.github.com/ko/get-started/using-github/github-flow)와 유사한 형태로 진행합니다.
-
-### 설명
+:construction:
 - 기본적인 기능 개발이 완료되면 [git flow](https://techblog.woowahan.com/2553/) 또는 [github flow](https://docs.github.com/ko/get-started/using-github/github-flow)와 유사한 형태로 진행합니다.
 
-## 스텁 실행하는 법 (혹은 로컬 개발환경 구성)
+### 설명
+:construction:
+- 기본적인 기능 개발이 완료되면 [git flow](https://techblog.woowahan.com/2553/) 또는 [github flow](https://docs.github.com/ko/get-started/using-github/github-flow)와 유사한 형태로 진행합니다.
+
+## 스텁
+```
+개발 환경 구축을 쉽게 하기 위해 스텁용 레포지토리를 제공합니다.
+```
 ### 도커 컴포즈를 사용한 퀵 런처
 - 레포: [ats-quick-launcher](https://github.com/AikusoniTradeSystem/ats-quick-launcher)
 - 기술: docker-compose, nginx
@@ -84,7 +87,7 @@ AikusoniTradeSystem은 게임내 아이템 경매장을 구현하기 위한 플�
 ### 프론트엔드
 마이크로 프론트엔드 방식
 #### 랜딩 페이지 (작업중)
-- 레포: [landing-page](https://github.com/AikusoniTradeSystem/ats-landing)
+- 레포: [ats-landing](https://github.com/AikusoniTradeSystem/ats-landing)
 - 기술: React
 - 설명: 프로젝트의 랜딩 페이지, 회원가입/로그인 등의 페이지 제공을 담당한다.
 
