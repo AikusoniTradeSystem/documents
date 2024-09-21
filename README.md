@@ -20,6 +20,7 @@
     - [기타](#기타)
 - [컨벤션](./convention/convention.md)
 - [도커 허브 링크](#도커-허브-링크)
+- [구현 고려 요소들](./details/future-features.md)
 
 ## 소개
 AikusoniTradeSystem 프로젝트는 여러 웹 개발 기술을 연습하고 학습하기 위한 개인 프로젝트입니다. \
