@@ -98,10 +98,17 @@ AikusoniTradeSystem은 게임내 아이템 경매장을 구현하기 위한 플�
 
 ### 백엔드
 
+#### 회원 서버 (작업전🚧)
+
+#### 토큰 로그인 서버 (작업전🚧)
+
+#### 토큰 검증 서버 (작업전🚧)
+
 #### 세션 인증 서버
 - 레포: [session-auth-server](https://github.com/AikusoniTradeSystem/session-auth-server)
 - 서버: Spring Boot (Spring MVC)
 - 설명: 회원가입/로그인/권한관리/인증 및 세션을 관리합니다. Redis를 사용해 세션 정보를 클러스터링 합니다.
+
 
 #### 테스트 서버 1
 - 레포: [test-server-spring](https://github.com/AikusoniTradeSystem/test-server-spring)
