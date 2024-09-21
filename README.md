@@ -1,6 +1,7 @@
 # AikusoniTradeSystem 문서
 
-:construction:아직 작업 중인 프로젝트입니다.:construction:
+- 이 문서는 설계 문서입니다.
+- :construction: 아직 작업 중인 프로젝트이므로, 미구현된 부분이 있고, 중간중간 내용이 변경될 수 있습니다.
 
 ## 목차
 
