@@ -1,0 +1,92 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.8 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.8">
+  <diagram name="페이지-1" id="BQ2mscNNE2avwwRGkgGm">
+    <mxGraphModel dx="1461" dy="939" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gdX8mykeYV_QKpxhBIkk-34" value="Key Management Flow" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="95" y="160" width="855" height="660" as="geometry" />
+        </mxCell>
+        <mxCell id="gdX8mykeYV_QKpxhBIkk-33" value="Retrieve the public key (KeyId is in the JWT) If the downstream server does not have public key for the message." style="rounded=0;whiteSpace=wrap;html=1;dashed=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="460" y="585" width="420" height="205" as="geometry" />
+        </mxCell>
+        <mxCell id="gdX8mykeYV_QKpxhBIkk-22" value="Renew Private Key Every N Hours... (The wardens constantly monitors it.)" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="160" y="420" width="420" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="gdX8mykeYV_QKpxhBIkk-14" value="Request Role Id &amp;amp; Secret (uuid is used to make roleid)" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gdX8mykeYV_QKpxhBIkk-6" target="gdX8mykeYV_QKpxhBIkk-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="490" as="sourcePoint" />
+            <mxPoint x="400" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gdX8mykeYV_QKpxhBIkk-4" value="UPSTREAM&lt;br&gt;SERVICE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gdX8mykeYV_QKpxhBIkk-5" value="VAULT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gdX8mykeYV_QKpxhBIkk-6" value="" style="line;strokeWidth=2;direction=south;html=1;" vertex="1" parent="1">
+          <mxGeometry x="215" y="270" width="10" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="gdX8mykeYV_QKpxhBIkk-7" value="" style="line;strokeWidth=2;direction=south;html=1;" vertex="1" parent="1">
+          <mxGeometry x="515" y="270" width="10" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="gdX8mykeYV_QKpxhBIkk-12" value="server begin" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gdX8mykeYV_QKpxhBIkk-16" value="App Role Secret" style="endArrow=classic;html=1;rounded=0;entryX=0.362;entryY=0.529;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.362;exitY=0.555;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="gdX8mykeYV_QKpxhBIkk-7" target="gdX8mykeYV_QKpxhBIkk-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="490" as="sourcePoint" />
+            <mxPoint x="360" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gdX8mykeYV_QKpxhBIkk-18" value="Make&lt;br&gt;PrivateKey" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="450" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gdX8mykeYV_QKpxhBIkk-20" value="Register Public Key (TTL : N*2 Hours)&lt;br&gt;containing (KeyId, Public Key)" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0022" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="490" as="sourcePoint" />
+            <mxPoint x="520" y="490" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gdX8mykeYV_QKpxhBIkk-21" value="Check Secret&lt;div&gt;&amp;amp; Save Public Key&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="500" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gdX8mykeYV_QKpxhBIkk-23" value="" style="line;strokeWidth=2;direction=south;html=1;" vertex="1" parent="1">
+          <mxGeometry x="215" y="630" width="10" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="gdX8mykeYV_QKpxhBIkk-24" value="" style="line;strokeWidth=2;direction=south;html=1;" vertex="1" parent="1">
+          <mxGeometry x="515" y="630" width="10" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="gdX8mykeYV_QKpxhBIkk-25" value="DOWNSTREAM&lt;br&gt;SERVICE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gdX8mykeYV_QKpxhBIkk-26" value="" style="line;strokeWidth=2;direction=south;html=1;" vertex="1" parent="1">
+          <mxGeometry x="815" y="270" width="10" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="gdX8mykeYV_QKpxhBIkk-27" value="" style="line;strokeWidth=2;direction=south;html=1;" vertex="1" parent="1">
+          <mxGeometry x="815" y="630" width="10" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="gdX8mykeYV_QKpxhBIkk-29" value="Request Public Key&amp;nbsp;&lt;br&gt;(KeyNo)" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="gdX8mykeYV_QKpxhBIkk-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="820" y="670" as="sourcePoint" />
+            <mxPoint x="525" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gdX8mykeYV_QKpxhBIkk-30" value="Public Key (KeyNo)" style="endArrow=classic;html=1;rounded=0;exitX=0.366;exitY=0.213;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="gdX8mykeYV_QKpxhBIkk-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="525" y="690" as="sourcePoint" />
+            <mxPoint x="820" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gdX8mykeYV_QKpxhBIkk-31" value="Message Received (&amp;amp; JWT)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="620" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gdX8mykeYV_QKpxhBIkk-32" value="Validate &amp;amp; Process Message" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="710" width="60" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
