@@ -4,17 +4,17 @@
 
 - ats는 Vault를 초기화 할 때 기본적으로 생성할 상위 정책을 만듭니다. (예를 들어 admin-policy, database-policy, approle-policy이 있습니다.)
 - 반면, 특정 서비스나 데이터베이스와 관련된 정책의 경우 관련 서비스나 데이터베이스가 추가 됐을 때 **하위 정책**을 따로 생성해서 사용합니다.
-- 하위 정책의 경우 하위 정책임을 나타내는 공통 접두어로 `sub-policy-`를 사용합니다.
+- 하위 정책의 경우 하위 정책임을 나타내는 공통 접두어로 `sub/`를 사용합니다.
 
 ## 하위 정책 명명 규칙
 
 - 하위 정책의 이름은 다음과 같은 규칙을 따릅니다.
-  - `sub-policy-<데이터베이스명>-by-approle`
-  - `sub-policy-<서비스명>-by-approle`
+  - `sub/approle/ats-user-db`
+  - `sub/approle/ats-user-service`
   
 - 예시
-  - `sub-policy-user-db-by-approle` : approle 정책이 생성한 데이터베이스 접근 정책
-  - `sub-policy-user-service-by-approle` : approle 정책이 생성한 서비스 접근 정책
+  - `sub/approle/ats-user-db` : approle 정책이 생성한 데이터베이스 접근 정책
+  - `sub/approle/ats-user-service` : approle 정책이 생성한 서비스 접근 정책
 
 ## 하위 정책 명명 규칙의 목적
 
