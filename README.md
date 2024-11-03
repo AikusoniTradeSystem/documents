@@ -99,7 +99,7 @@ AikusoniTradeSystem은 게임내 아이템 경매장을 구현하기 위한 플�
 개발 환경 구축을 쉽게 하기 위해 스텁용 레포지토리를 제공합니다.
 ```
 ### 도커 컴포즈를 사용한 퀵 런처
-- 레포: [ats-quick-launcher](https://github.com/AikusoniTradeSystem/ats-quick-launcher)
+- 레포: [ats-docker-compose-launcher](https://github.com/AikusoniTradeSystem/ats-docker-compose-launcher)
 - 기술: docker-compose, nginx
 - 설명: 도커 컴포즈를 사용해 프로젝트의 모든 서비스를 한번에 실행할 수 있도록 구성되어 있습니다. 이 레포지토리를 참조하면 도커 컴포즈를 사용해서 스텁을 올리고 싶은 도커 클러스터에 서비스를 등록 할 수 있습니다.
 
