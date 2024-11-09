@@ -5,5 +5,6 @@
 - develop : 개발 브랜치
 ### 선택 브랜치
 작업에 따라 유연하게 작성하나 다음과 같이 알아 볼 수 있게 명명해야 합니다.
-- feature : 기능 개발 브랜치 (예: feature/기능명_이슈번호_작업시작날짜)
-- fix : 기존 기능에 대한 버그 수정 브랜치 (예: fix/기능명_이슈번호_작업시작날짜)
+- feature : 기능 개발 브랜치 (예: feature/root_ca_feature)
+- fix : 기존 기능에 대한 버그 수정 브랜치 (예: fix/ca_chain)
+- renewal : 대대적인 구조 변경 등 리뉴얼 작업인 경우 (예: renewal/renewal_init_sequence)
