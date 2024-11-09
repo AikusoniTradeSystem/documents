@@ -2,7 +2,8 @@
 ### 커밋 메시지 구조
 ```
 변경점에 대한 간략한 설명 작성
-[브랜치명(커밋별명)] ([프로젝트명:Issue번호])
+[브랜치명(커밋별명)]
+([프로젝트명:Issue번호])
 * 변경점에 대한 설명 작성1
 * 변경점에 대한 설명 작성2
 .
@@ -14,7 +15,8 @@
 - 관련 이슈가 있는 경우
 ```
 아이템 예약 관련 변경
-[fix/item-reservation(아이템예약)] [AikusoniTradeSystem#1234,AikusoniTradeSystem#5678]
+[fix/item-reservation(아이템예약)]
+[AikusoniTradeSystem#1234,AikusoniTradeSystem#5678]
 * 아이템 예약시 간헐적으로 발생하는 예약 오류 수정
 * 아이템 예약시 예약자 정보가 로그에 남도록 변경
 ```
